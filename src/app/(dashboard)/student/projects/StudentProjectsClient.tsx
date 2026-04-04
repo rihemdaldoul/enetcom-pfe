@@ -135,7 +135,7 @@ export default function StudentProjectsClient({ projects }: { projects: any[] })
                     {project.tags.map((tag: string) => (
                       <span key={tag} style={{
                         padding: '0.2rem 0.6rem', background: 'var(--bg-secondary)',
-                        color: 'var(--text-secondary)', borderRadius: 6, fontSize: '0.78rem',
+                        borderRadius: 6, fontSize: '0.78rem',
                         border: '1px solid var(--border)',
                         fontWeight: selectedTag === tag ? 700 : 400,
                         color: selectedTag === tag ? 'var(--accent)' : 'var(--text-secondary)',
